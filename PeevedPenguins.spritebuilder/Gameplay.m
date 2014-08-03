@@ -133,7 +133,7 @@
 - (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
     float energy = [pair totalKineticEnergy];
     
-    CCLOG(@"Something collided with a seal! %s %@", nodeB.tag, nodeB.description);
+    CCLOG(@"Something collided with a seal! %s %@", nodeB.name, nodeB.description);
    
     // if energy is large enough, remove the seal
     if ((energy > 20000) && (energy < 120000)) {
