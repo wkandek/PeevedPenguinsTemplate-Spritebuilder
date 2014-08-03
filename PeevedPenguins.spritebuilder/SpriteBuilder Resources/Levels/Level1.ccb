@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>19</integer>
+	<integer>20</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -41,7 +41,7 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>14</integer>
+				<integer>19</integer>
 				<key>baseClass</key>
 				<string>CCBFile</string>
 				<key>children</key>
@@ -61,7 +61,7 @@
 					<key>allowsRotation</key>
 					<true/>
 					<key>bodyShape</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>collisionCategories</key>
 					<array/>
 					<key>collisionMask</key>
@@ -69,7 +69,7 @@
 					<key>collisionType</key>
 					<string></string>
 					<key>cornerRadius</key>
-					<real>0.0</real>
+					<real>13</real>
 					<key>density</key>
 					<real>1</real>
 					<key>dynamic</key>
@@ -81,43 +81,12 @@
 					<key>points</key>
 					<array>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-						</array>
-						<array>
-							<real>0.0</real>
-							<real>25</real>
-						</array>
-						<array>
-							<real>27</real>
-							<real>25</real>
-						</array>
-						<array>
-							<real>27</real>
-							<real>0.0</real>
+							<real>13.5</real>
+							<real>12.5</real>
 						</array>
 					</array>
 					<key>polygons</key>
-					<array>
-						<array>
-							<array>
-								<real>27</real>
-								<real>0.0</real>
-							</array>
-							<array>
-								<real>27</real>
-								<real>25</real>
-							</array>
-							<array>
-								<real>0.0</real>
-								<real>25</real>
-							</array>
-							<array>
-								<real>0.0</real>
-								<real>0.0</real>
-							</array>
-						</array>
-					</array>
+					<array/>
 				</dict>
 				<key>properties</key>
 				<array>
@@ -136,8 +105,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>44</real>
-							<real>43.500030517578125</real>
+							<real>128</real>
+							<real>129.50003051757812</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -165,8 +134,6 @@
 						<string>Seal.ccb</string>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -304,6 +271,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
