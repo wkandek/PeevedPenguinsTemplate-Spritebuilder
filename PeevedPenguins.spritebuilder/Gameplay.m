@@ -136,7 +136,7 @@
     // CCLOG(@"Something collided with a seal!");
    
     // if energy is large enough, remove the seal
-    if (energy > 7000) {
+    if ((energy > 7000) && (energy < 12000)) {
         [[_physicsNode space] addPostStepBlock:^{
             [self sealRemoved:nodeA];
              CCLOG(@"Energy %f", energy);
