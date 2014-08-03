@@ -21,6 +21,8 @@
     self.userInteractionEnabled = TRUE;
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
+    // visualize physics bodies & joints
+    _physicsNode.debugDraw = TRUE;
 }
 
 // called on every touch in this scene
@@ -45,7 +47,7 @@
     
     // manually create & apply a force to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
-    CGPoint force = ccpMult(launchDirection, 16000);
+    CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
 
     
