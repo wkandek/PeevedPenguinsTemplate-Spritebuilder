@@ -888,7 +888,7 @@
 										<key>type</key>
 										<string>StringSimple</string>
 										<key>value</key>
-										<string></string>
+										<string>ground</string>
 									</dict>
 									<dict>
 										<key>name</key>
@@ -897,7 +897,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>1.2000000476837158</real>
+											<real>2.4000000953674316</real>
 											<real>0.0</real>
 											<integer>0</integer>
 											<integer>0</integer>
