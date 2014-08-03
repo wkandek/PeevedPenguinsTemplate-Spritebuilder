@@ -584,16 +584,24 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>22.099998474121094</real>
+											<real>3.0047194957733154</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>92</real>
+											<real>7.6999988555908203</real>
+											<real>41.404720306396484</real>
 										</array>
 										<array>
-											<real>215</real>
-											<real>92</real>
+											<real>65.300003051757812</real>
+											<real>47.404720306396484</real>
+										</array>
+										<array>
+											<real>79.699996948242188</real>
+											<real>79.804718017578125</real>
+										</array>
+										<array>
+											<real>211.69999694824219</real>
+											<real>39.004718780517578</real>
 										</array>
 										<array>
 											<real>215</real>
@@ -604,20 +612,38 @@
 									<array>
 										<array>
 											<array>
-												<real>215</real>
-												<real>0.0</real>
+												<real>211.69999694824219</real>
+												<real>39.004718780517578</real>
+											</array>
+											<array>
+												<real>79.699996948242188</real>
+												<real>79.804718017578125</real>
+											</array>
+											<array>
+												<real>65.300003051757812</real>
+												<real>47.404720306396484</real>
+											</array>
+										</array>
+										<array>
+											<array>
+												<real>65.300003051757812</real>
+												<real>47.404720306396484</real>
+											</array>
+											<array>
+												<real>7.6999988555908203</real>
+												<real>41.404720306396484</real>
+											</array>
+											<array>
+												<real>22.099998474121094</real>
+												<real>3.0047194957733154</real>
 											</array>
 											<array>
 												<real>215</real>
-												<real>92</real>
+												<real>0.0</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>92</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
+												<real>211.69999694824219</real>
+												<real>39.004718780517578</real>
 											</array>
 										</array>
 									</array>
@@ -695,6 +721,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1151,8 +1179,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
