@@ -133,6 +133,8 @@
 - (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
     float energy = [pair totalKineticEnergy];
     
+    // if collison is with groud ignore
+    if ([nodeB.description rangeOfString:@"ground"].length == 0 ) {
     // if energy is large enough, remove the seal
     if ((energy > 5000) && (energy < 120000)) {
         [[_physicsNode space] addPostStepBlock:^{
@@ -140,6 +142,7 @@
             CCLOG(@"Energy %f", energy);
             CCLOG(@"Something collided with a seal! %@", nodeB.description);
         } key:nodeA];
+    }
     }
 }
 
